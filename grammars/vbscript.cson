@@ -6,7 +6,8 @@
   'vba',
   'bas',
   'frm',
-  'cls'
+  'cls',
+  'mac'
 ]
 'name': 'VBScript'
 'patterns': [
