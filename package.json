@@ -1,6 +1,6 @@
 {
-  "name": "language-vbscript",
-  "main": "./lib/language-vbscript",
+  "name": "language-vbscript-Choco617",
+  "main": "./lib/language-vbscript-Choco617",
   "version": "0.9.0",
   "description": "VBScript/VBA syntax highlighting",
   "repository": "https://github.com/reekers/language-vbscript",

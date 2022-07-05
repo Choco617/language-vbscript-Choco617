@@ -1,0 +1,13 @@
+'.source.vbs':
+  '<%= %>':
+    'prefix': '='
+    'body': '<%= $0 %>'
+  'For … Next':
+    'prefix': 'for'
+    'body': 'For i = 0 To UBound(${1:})\n\t${2:\}\nNext${3:\}'
+  'If … End if':
+    'prefix': 'ifthen'
+    'body': 'If ${1:condition} Then\n\t${2:\}\nEnd If${3:}'
+  'Do While … Loop':
+    'prefix': 'dowhile'
+    'body': 'Do While Trim(${1:}) <> ""\n\t${2:\}\nLoop${3:}'
